@@ -1,2 +1,8 @@
 h1{ font-family: sans-serif;text-align: center;}
 h2{font-family: sans-serif;font-style: italic; text-align: left;}
+img {
+    height: 400px;
+    width: 400px;
+    object-fit: contain;
+    float: left;
+  }
