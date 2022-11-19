@@ -5,13 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lab3pt1</title>
+    <style>
+.Prot-li{background-color: pink;}
+.Pal-li{background-color: blue;}
+.Mes-li{background-color: green;}
+.Cen-li{background-color: red;}
+    </style>
   </head>
   <body>
     <table>
       <ol type="I">
-        <li>Proterozoic</li>
-        <li>Paleozoic</li>
-        <ol type="A">
+        <li class="Prot-li">Proterozoic</li>
+        <li class="Pal-li">Paleozoic</li>
+        <ol type="A", class="Pal-li">
           <li>Cambrian</li>
           <li>Ordovician</li>
           <li>Silurian</li>
@@ -20,14 +26,14 @@
           <li>Pennsylvanian</li>
           <li>Permian</li>
         </ol>
-        <li>Mesozoic</li>
-        <ol type="A">
+        <li class="Mes-li">Mesozoic</li>
+        <ol type="A", class="Mes-li">
           <li>Triassic</li>
           <li>Jurassic</li>
           <li>Cretaceous</li>
         </ol>
-        <li>Cenozoic</li>
-        <ol type="A"> 
+        <li class="Cen-li">Cenozoic</li>
+        <ol type="A", class="Cen-li"> 
           <li>Paleogene</li>
           <ol>
             <li>Paleocene</li>
